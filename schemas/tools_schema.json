@@ -1,0 +1,82 @@
+# ==========================================
+# TOOL 1: IDENTITY VERIFICATION
+# ==========================================
+[
+  {
+    "name": "verify_customer",
+    "description": "Verifies customer identity using birth year or verification code before debt disclosure.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "verification_value": {
+          "type": "string",
+          "description": "The year of birth or 4-digit code provided by customer."
+        }
+      },
+      "required": [
+        "verification_value"
+      ]
+    }
+  },
+
+  # ==========================================
+  # TOOL 2: LOG PROMISE TO PAY (PTP)
+  # ==========================================
+  {
+    "name": "log_promise_to_pay",
+    "description": "Logs the customer's agreed payment date and amount in the CRM.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "ptp_date": {
+          "type": "string",
+          "description": "Agreed payment date in YYYY-MM-DD format."
+        },
+        "ptp_amount": {
+          "type": "number",
+          "description": "Amount customer promised to pay."
+        }
+      },
+      "required": [
+        "ptp_date",
+        "ptp_amount"
+      ]
+    }
+  },
+
+  # ==========================================
+  # TOOL 3: SEND PAYMENT LINK
+  # ==========================================
+  {
+    "name": "send_payment_link",
+    "description": "Triggers an SMS or WhatsApp payment link to the customer.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "channel": {
+          "type": "string",
+          "enum": [
+            "SMS",
+            "WhatsApp"
+          ],
+          "description": "Channel to send the payment link."
+        }
+      },
+      "required": [
+        "channel"
+      ]
+    }
+  },
+
+  # ==========================================
+  # TOOL 4: END OUTREACH CALL
+  # ==========================================
+  {
+    "name": "end_outreach_call",
+    "description": "End the call once the sales, follow-up, or reminder conversation is complete, or when the person declines further contact.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
