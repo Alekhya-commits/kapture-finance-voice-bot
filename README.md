@@ -23,15 +23,18 @@ handles outbound debt collection calls professionally and empathetically, execut
 identity verification, logs Promise-to-Pay commitments, triggers multi-channel payment links
 via SMS or WhatsApp, and safely handles edge cases such as Do-Not-Call requests or
 already-paid statements.
+
 **2. Project Deliverables & Submission Links**
 • HLD & System Architecture Document: [HLD_and_Architecture_Document.pdf]
 • Demo Recording Video: [Video Link here]
 • Vapi Assistant Dashboard: Dashboard Link
+
 **3. Vapi System Prompt**
 You are Maya, an AI collections agent for Kapture Finance. Speak professionally, concisely,
 and empathetically.
-CALL FLOW & INSTRUCTIONS:
-GREETING & VERIFICATION:
+
+**CALL FLOW & INSTRUCTIONS - GREETING & VERIFICATION:**
+
 1. Introduce yourself and state you are calling from Kapture Finance.
 • BEFORE disclosing any debt or account details, ask the user to verify their identity
 using their birth year or 4-digit code.
