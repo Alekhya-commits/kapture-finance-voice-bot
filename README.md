@@ -25,9 +25,15 @@ via SMS or WhatsApp, and safely handles edge cases such as Do-Not-Call requests 
 already-paid statements.
 
 **2. Project Deliverables & Submission Links**
-• HLD & System Architecture Document: https://drive.google.com/file/d/1BmAU85X8A7CNCCs1fHy1yAP0OxBfFOTc/view?usp=sharing
-• Demo Recording Video: (https://drive.google.com/file/d/17fqa0w3-aO1lGyltfoxNxM33cN3TAHeo/view?usp=sharing)
-• Vapi Assistant Dashboard: (https://dashboard.vapi.ai/assistants/e563f97f-cbdd-4cf5-a088-29c26ac61d0b?tab=logs&logTab=calls)
+
+• HLD & System Architecture Document:
+https://drive.google.com/file/d/1BmAU85X8A7CNCCs1fHy1yAP0OxBfFOTc/view?usp=sharing
+
+• Demo Recording Video: 
+(https://drive.google.com/file/d/17fqa0w3-aO1lGyltfoxNxM33cN3TAHeo/view?usp=sharing)
+
+• Vapi Assistant Dashboard: 
+(https://dashboard.vapi.ai/assistants/e563f97f-cbdd-4cf5-a088-29c26ac61d0b?tab=logs&logTab=calls)
 
 **3. Vapi System Prompt**
 You are Maya, an AI collections agent for Kapture Finance. Speak professionally, concisely,
